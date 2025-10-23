@@ -1,0 +1,32 @@
+package com.gen.Sauce;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+
+public class ExcelReader {
+
+	public String getData(String sheetName,int row,int cell) throws EncryptedDocumentException, IOException
+	{
+
+		FileInputStream input = new FileInputStream("./src/main/resources/TestData.xlsx");
+		Workbook w = WorkbookFactory.create(input);
+		Cell c= w.getSheet(sheetName).getRow(row).getCell(cell);
+		DataFormatter df = new DataFormatter();
+		String value = df.formatCellValue(c);
+		return value;
+		
+		
+
+	}
+
+	
+
+}
