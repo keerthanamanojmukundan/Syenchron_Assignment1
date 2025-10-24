@@ -1,10 +1,13 @@
 package com.script.Sauce;
 
 
+import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
 import org.apache.poi.EncryptedDocumentException;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -12,6 +15,8 @@ import org.testng.annotations.Test;
 
 import com.gen.Sauce.Base;
 import com.gen.Sauce.ExcelReader;
+import com.gen.Sauce.Screenshot;
+import com.google.common.io.Files;
 import com.pom.Sauce.Cart;
 import com.pom.Sauce.CheckOut;
 import com.pom.Sauce.Confirmation;
@@ -88,7 +93,8 @@ public class Script_01 extends Base {
 		String confirmMsg=conf.fetchConfirmationMsg().getText();
 		Reporter.log(confirmMsg, true);
 		
-		
+		Screenshot shot=new Screenshot();
+		shot.takeScreenshot();
 		
 	}
 

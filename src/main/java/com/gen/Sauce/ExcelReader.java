@@ -16,12 +16,15 @@ public class ExcelReader {
 	public String getData(String sheetName,int row,int cell) throws EncryptedDocumentException, IOException
 	{
 
-		FileInputStream input = new FileInputStream("./src/main/resources/TestData.xlsx");
-		Workbook w = WorkbookFactory.create(input);
-		Cell c= w.getSheet(sheetName).getRow(row).getCell(cell);
-		DataFormatter df = new DataFormatter();
-		String value = df.formatCellValue(c);
-		return value;
+		FileInputStream fileStream = new FileInputStream("./src/main/resources/TestData.xlsx");
+		Workbook workbook = WorkbookFactory.create(fileStream);
+		 Cell target= workbook.getSheet(sheetName).getRow(row).getCell(cell);
+
+
+		DataFormatter formatter = new DataFormatter();
+		String cellContent = formatter.formatCellValue(target);
+
+		return cellContent;
 		
 		
 

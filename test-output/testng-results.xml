@@ -17,20 +17,20 @@
       <![CDATA[Logged Out Successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-10-23T17:04:10 IST" name="Default suite" finished-at="2025-10-23T17:04:34 IST" duration-ms="23520">
+  <suite started-at="2025-10-24T10:12:36 IST" name="Default suite" finished-at="2025-10-24T10:12:44 IST" duration-ms="8132">
     <groups>
     </groups>
-    <test started-at="2025-10-23T17:04:10 IST" name="Default test" finished-at="2025-10-23T17:04:34 IST" duration-ms="23520">
+    <test started-at="2025-10-24T10:12:36 IST" name="Default test" finished-at="2025-10-24T10:12:44 IST" duration-ms="8132">
       <class name="com.script.Sauce.Script_01">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.script.Sauce.Script_01@3bf7ca37]" started-at="2025-10-23T17:04:10 IST" name="openBrowser" finished-at="2025-10-23T17:04:22 IST" duration-ms="11606" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.script.Sauce.Script_01@3bf7ca37]" started-at="2025-10-24T10:12:36 IST" name="openBrowser" finished-at="2025-10-24T10:12:39 IST" duration-ms="3291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.script.Sauce.Script_01@3bf7ca37]" started-at="2025-10-23T17:04:22 IST" name="login" finished-at="2025-10-23T17:04:29 IST" duration-ms="6750" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.script.Sauce.Script_01@3bf7ca37]" started-at="2025-10-24T10:12:39 IST" name="login" finished-at="2025-10-24T10:12:42 IST" duration-ms="2739" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="testScript()[pri:0, instance:com.script.Sauce.Script_01@3bf7ca37]" started-at="2025-10-23T17:04:29 IST" name="testScript" finished-at="2025-10-23T17:04:32 IST" duration-ms="3641" status="PASS">
+        <test-method signature="testScript()[pri:0, instance:com.script.Sauce.Script_01@3bf7ca37]" started-at="2025-10-24T10:12:42 IST" name="testScript" finished-at="2025-10-24T10:12:43 IST" duration-ms="1400" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logged in and home page is  displayed]]>
@@ -46,14 +46,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- testScript -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.script.Sauce.Script_01@3bf7ca37]" started-at="2025-10-23T17:04:32 IST" name="logout" finished-at="2025-10-23T17:04:33 IST" duration-ms="417" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.script.Sauce.Script_01@3bf7ca37]" started-at="2025-10-24T10:12:43 IST" name="logout" finished-at="2025-10-24T10:12:44 IST" duration-ms="248" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logged Out Successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.script.Sauce.Script_01@3bf7ca37]" started-at="2025-10-23T17:04:33 IST" name="closeBrowser" finished-at="2025-10-23T17:04:34 IST" duration-ms="976" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.script.Sauce.Script_01@3bf7ca37]" started-at="2025-10-24T10:12:44 IST" name="closeBrowser" finished-at="2025-10-24T10:12:44 IST" duration-ms="402" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
